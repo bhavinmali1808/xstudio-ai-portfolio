@@ -7,7 +7,7 @@ const testimonials = [
     name: "Sarah Chen",
     role: "Founder & CEO",
     company: "NeoFinance",
-    content: "Xstudio transformed our brand completely. Their AI-driven approach to marketing increased our user acquisition by 340% in just 3 months. The team truly understands both creativity and technology.",
+    content: "HD Graphics transformed our brand completely. Their AI-driven approach to marketing increased our user acquisition by 340% in just 3 months. The team truly understands both creativity and technology.",
     rating: 5,
     avatar: "SC",
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Michael Rodriguez",
     role: "Marketing Director",
     company: "HealthTech Solutions",
-    content: "Working with Xstudio was a game-changer. They delivered a stunning dashboard that our clients love, and their ongoing support has been exceptional. Highly recommend!",
+    content: "Working with HD Graphics was a game-changer. They delivered a stunning dashboard that our clients love, and their ongoing support has been exceptional. Highly recommend!",
     rating: 5,
     avatar: "MR",
   },
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Emily Watson",
     role: "Co-founder",
     company: "EcoStart Ventures",
-    content: "The brand identity Xstudio created for us perfectly captures our mission. Their team is creative, responsive, and truly cares about delivering results. Worth every penny.",
+    content: "The brand identity HD Graphics created for us perfectly captures our mission. Their team is creative, responsive, and truly cares about delivering results. Worth every penny.",
     rating: 5,
     avatar: "EW",
   },
@@ -31,7 +31,7 @@ const testimonials = [
     name: "David Kim",
     role: "Product Manager",
     company: "FitLife App",
-    content: "The AI chatbot Xstudio built for us handles 80% of customer queries automatically. Our support costs dropped by 60% while customer satisfaction improved. Incredible work!",
+    content: "The AI chatbot HD Graphics built for us handles 80% of customer queries automatically. Our support costs dropped by 60% while customer satisfaction improved. Incredible work!",
     rating: 5,
     avatar: "DK",
   },
@@ -68,7 +68,7 @@ export const Testimonials = () => {
             What Our <span className="gradient-text">Clients Say</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            Don't just take our word for it. Here's what industry leaders say about working with Xstudio.
+            Don't just take our word for it. Here's what industry leaders say about working with HD Graphics.
           </p>
         </motion.div>
 

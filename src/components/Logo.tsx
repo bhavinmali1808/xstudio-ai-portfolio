@@ -20,8 +20,8 @@ export const Logo = ({ showTagline = false, size = "md", className = "", variant
     lg: "text-base",
   };
 
-  const logoSource = variant === "dark" ? "/blacklogo.png" : "/logo.png";
-  const taglineColor = variant === "dark" ? "text-white" : "text-[#0F122E]";
+  const logoSource = variant === "dark" ? "/logo_final.png" : "/logo_final.png";
+  const taglineColor = variant === "dark" ? "text-white" : "text-[#164B4D]";
 
   return (
     <motion.div
@@ -31,10 +31,11 @@ export const Logo = ({ showTagline = false, size = "md", className = "", variant
     >
       <img
         src={logoSource}
-        alt="XSTUDIO Logo"
+        alt="HD Graphics Logo"
         className={`${sizeClasses[size]} object-contain`}
+        style={{ mixBlendMode: "multiply" }}
       />
-      
+
       {/* MAKE IT MATTER Tagline */}
       {showTagline && (
         <motion.div

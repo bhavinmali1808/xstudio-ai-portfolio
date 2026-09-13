@@ -45,7 +45,7 @@ export const About = () => {
             <span className="gradient-text">Intelligence</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            Xstudio is a next-generation creative agency that fuses artistic vision with 
+            HD Graphics is a next-generation creative agency that fuses artistic vision with 
             artificial intelligence to craft brands that don't just stand out—they dominate.
           </p>
         </motion.div>
@@ -60,7 +60,7 @@ export const About = () => {
           >
             <div className="glass-card p-8 md:p-10">
               <h3 className="text-2xl md:text-3xl font-bold font-display mb-6">
-                The Xstudio Story
+                The HD Graphics Story
               </h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
@@ -68,7 +68,7 @@ export const About = () => {
                   to bridge the gap between creativity and artificial intelligence.
                 </p>
                 <p>
-                  Xstudio was born from a simple belief: <span className="text-foreground font-medium">
+                  HD Graphics was born from a simple belief: <span className="text-foreground font-medium">
                   the future of branding lies at the intersection of human creativity and machine intelligence.</span>
                 </p>
                 <p>

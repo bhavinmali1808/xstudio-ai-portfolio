@@ -1,6 +1,6 @@
-# Xstudio AI Chatbot
+# HD Graphics AI Chatbot
 
-Production-ready AI chatbot for Xstudio website using Ollama (local LLM).
+Production-ready AI chatbot for HD Graphics website using Ollama (local LLM).
 
 ## Features
 
@@ -97,7 +97,7 @@ npm test
    - Open `http://localhost:8080`
    - Click the chat button (bottom-right)
    - Try these queries:
-     - "What services does Xstudio offer?"
+     - "What services does HD Graphics offer?"
      - "I need a quote for branding"
      - "Tell me about your case studies"
      - "How can I contact you?"
@@ -118,13 +118,13 @@ npm test
 ## Project Structure
 
 ```
-xstudio-ai-portfolio/
+HD Graphics-ai-portfolio/
 ├── src/
 │   ├── components/
 │   │   └── chat/
 │   │       └── ChatWidget.tsx      # Main chat widget component
 │   ├── lib/
-│   │   ├── xstudioKnowledge.ts     # Knowledge base
+│   │   ├── HD GraphicsKnowledge.ts     # Knowledge base
 │   │   └── chat/
 │   │       ├── intent.ts           # Intent detection & WhatsApp builder
 │   │       └── rateLimit.ts        # Client-side rate limit (if needed)
@@ -133,7 +133,7 @@ xstudio-ai-portfolio/
 │   ├── api/
 │   │   └── chat.ts                 # Express API route for Ollama
 │   ├── lib/
-│   │   ├── xstudioKnowledge.ts     # Server-side knowledge base
+│   │   ├── HD GraphicsKnowledge.ts     # Server-side knowledge base
 │   │   └── chat/
 │   │       ├── intent.ts           # Server-side validation
 │   │       └── rateLimit.ts        # Server-side rate limiting
@@ -262,5 +262,5 @@ Check API server and Ollama status.
 
 ## License
 
-Part of Xstudio portfolio project.
+Part of HD Graphics portfolio project.
 

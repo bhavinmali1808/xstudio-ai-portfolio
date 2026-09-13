@@ -113,7 +113,7 @@ export const Contact = () => {
               {/* Contact Methods */}
               <div className="space-y-6">
                 <a
-                  href="mailto:office@xstudio.blog"
+                  href="mailto:office@HD Graphics.blog"
                   className="flex items-center gap-4 p-4 rounded-xl hover:bg-[#6B50A2]/5 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-[#6B50A2]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -121,7 +121,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <div className="text-sm text-[#645876]">Email Us</div>
-                    <div className="font-medium text-[#0F122E] group-hover:text-[#6B50A2] transition-colors">office@xstudio.blog</div>
+                    <div className="font-medium text-[#0F122E] group-hover:text-[#6B50A2] transition-colors">office@HD Graphics.blog</div>
                   </div>
                 </a>
 

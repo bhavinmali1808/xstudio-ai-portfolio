@@ -1,4 +1,4 @@
-# Quick Start Guide - Xstudio AI Chatbot
+# Quick Start Guide - HD Graphics AI Chatbot
 
 ## 🚀 Quick Setup (5 minutes)
 
@@ -35,14 +35,14 @@ This starts:
 ### 5. Test It!
 1. Open `http://localhost:8080`
 2. Click the chat button (bottom-right)
-3. Ask: "What services does Xstudio offer?"
+3. Ask: "What services does HD Graphics offer?"
 
 ## 🧪 Test Scenarios
 
 ### Basic Chat
 - "Hello"
 - "What services do you offer?"
-- "Tell me about Xstudio"
+- "Tell me about HD Graphics"
 
 ### Lead Capture
 - "I need a quote"
@@ -78,5 +78,5 @@ ollama serve
 
 - Read full docs: `README_CHATBOT.md`
 - Run tests: `npm test`
-- Customize knowledge base: `src/lib/xstudioKnowledge.ts`
+- Customize knowledge base: `src/lib/HD GraphicsKnowledge.ts`
 

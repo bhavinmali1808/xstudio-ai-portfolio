@@ -47,7 +47,7 @@ export const WhyChooseUs = () => {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-primary text-sm font-semibold uppercase tracking-wider">Why Xstudio</span>
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">Why HD Graphics</span>
             <h2 className="section-title mt-4 mb-6">
               The Partner You Need for{" "}
               <span className="gradient-text">Exponential Growth</span>

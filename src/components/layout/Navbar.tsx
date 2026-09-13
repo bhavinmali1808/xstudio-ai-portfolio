@@ -47,7 +47,7 @@ export const Navbar = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-[#645876] hover:text-[#0F122E] transition-colors duration-200 text-sm font-medium"
+                className="text-[#263536] hover:text-[#C9572B] transition-colors duration-200 text-sm font-medium"
               >
                 {link.label}
               </a>
@@ -73,7 +73,7 @@ export const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-[#0F122E]"
+            className="md:hidden p-2 text-[#164B4D]"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -95,7 +95,7 @@ export const Navbar = () => {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-[#645876] hover:text-[#0F122E] transition-colors duration-200 text-lg font-medium py-2"
+                  className="text-[#263536] hover:text-[#C9572B] transition-colors duration-200 text-lg font-medium py-2"
                 >
                   {link.label}
                 </a>

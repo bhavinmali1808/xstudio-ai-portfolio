@@ -6,7 +6,7 @@
 
 import express from 'express';
 import cors from 'cors';
-import { SYSTEM_PROMPT } from '../lib/xstudioKnowledge';
+import { SYSTEM_PROMPT } from '../lib/HD GraphicsKnowledge';
 import { validateInput, detectPromptInjection } from '../lib/chat/intent';
 import { checkRateLimit } from '../lib/chat/rateLimit';
 import { generateSimpleResponse } from '../lib/simpleAI';
@@ -51,7 +51,7 @@ app.post('/api/chat', async (req, res) => {
     if (detectPromptInjection(message)) {
       return res.status(400).json({
         error: 'Invalid request',
-        message: 'I can help with Xstudio services, process, and getting a quote. What would you like to build?',
+        message: 'I can help with HD Graphics services, process, and getting a quote. What would you like to build?',
       });
     }
 
@@ -90,7 +90,7 @@ app.post('/api/chat', async (req, res) => {
       } catch (error: any) {
         console.error('Simple AI error:', error);
         // Fallback to helpful message
-        const fallbackResponse = "I'm here to help with Xstudio services! However, I'm experiencing some technical difficulties. Please contact us directly at office@xstudio.blog or +91 9998739029 for immediate assistance.";
+        const fallbackResponse = "I'm here to help with HD Graphics services! However, I'm experiencing some technical difficulties. Please contact us directly at office@HD Graphics.blog or +91 9998739029 for immediate assistance.";
         res.write(`data: ${JSON.stringify({ content: fallbackResponse })}\n\n`);
         res.write('data: [DONE]\n\n');
         res.end();

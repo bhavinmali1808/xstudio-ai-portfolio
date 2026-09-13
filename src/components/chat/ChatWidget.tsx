@@ -49,7 +49,7 @@ export const ChatWidget = () => {
 
   // Load messages from localStorage
   useEffect(() => {
-    const saved = localStorage.getItem('xstudio_chat_messages');
+    const saved = localStorage.getItem('HD Graphics_chat_messages');
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -66,7 +66,7 @@ export const ChatWidget = () => {
   // Save messages to localStorage
   useEffect(() => {
     if (messages.length > 0) {
-      localStorage.setItem('xstudio_chat_messages', JSON.stringify(messages));
+      localStorage.setItem('HD Graphics_chat_messages', JSON.stringify(messages));
     }
   }, [messages]);
 
@@ -102,9 +102,9 @@ export const ChatWidget = () => {
 
   const handleQuickAction = (actionId: string) => {
     const actions: Record<string, string> = {
-      services: 'What services does Xstudio offer?',
+      services: 'What services does HD Graphics offer?',
       pricing: 'I need a quote for my project',
-      contact: 'How can I contact Xstudio?',
+      contact: 'How can I contact HD Graphics?',
       cases: 'Show me your case studies and portfolio',
       consultation: 'I want to book a free consultation',
     };
@@ -284,7 +284,7 @@ export const ChatWidget = () => {
     setMessages([]);
     setLeadData({});
     setIsCapturingLead(false);
-    localStorage.removeItem('xstudio_chat_messages');
+    localStorage.removeItem('HD Graphics_chat_messages');
   };
 
   const formatTime = (date: Date) => {
@@ -353,7 +353,7 @@ export const ChatWidget = () => {
               <div className="flex items-center gap-2">
                 <Sparkles className="w-5 h-5" />
                 <div>
-                  <h3 className="font-semibold">Xstudio AI Assistant</h3>
+                  <h3 className="font-semibold">HD Graphics AI Assistant</h3>
                   <p className="text-xs text-white/80">Usually responds instantly</p>
                 </div>
               </div>
@@ -393,7 +393,7 @@ export const ChatWidget = () => {
                 {messages.length === 0 && (
                   <div className="text-center text-gray-500 text-sm py-8">
                     <Sparkles className="w-8 h-8 mx-auto mb-2 text-[#6B50A2]" />
-                    <p>Hi! I'm your Xstudio AI Assistant.</p>
+                    <p>Hi! I'm your HD Graphics AI Assistant.</p>
                     <p className="mt-1">How can I help you today?</p>
                   </div>
                 )}

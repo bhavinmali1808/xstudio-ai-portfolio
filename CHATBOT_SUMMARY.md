@@ -1,8 +1,8 @@
-# Xstudio AI Chatbot - Implementation Summary
+# HD Graphics AI Chatbot - Implementation Summary
 
 ## ✅ What Was Built
 
-A production-ready AI chatbot for the Xstudio website using **Ollama** (local LLM) with the following features:
+A production-ready AI chatbot for the HD Graphics website using **Ollama** (local LLM) with the following features:
 
 ### Core Features
 - ✅ Floating chat widget (bottom-right corner)
@@ -19,14 +19,14 @@ A production-ready AI chatbot for the Xstudio website using **Ollama** (local LL
 
 #### Frontend Components
 - `src/components/chat/ChatWidget.tsx` - Main chat widget component
-- `src/lib/xstudioKnowledge.ts` - Knowledge base for the AI
+- `src/lib/HD GraphicsKnowledge.ts` - Knowledge base for the AI
 - `src/lib/chat/intent.ts` - Intent detection & WhatsApp message builder
 - `src/lib/chat/rateLimit.ts` - Client-side rate limiting utilities
 
 #### Backend Server
 - `server/index.ts` - Server entry point
 - `server/api/chat.ts` - Express API route for Ollama integration
-- `server/lib/xstudioKnowledge.ts` - Server-side knowledge base
+- `server/lib/HD GraphicsKnowledge.ts` - Server-side knowledge base
 - `server/lib/chat/intent.ts` - Server-side validation
 - `server/lib/chat/rateLimit.ts` - Server-side rate limiting
 
@@ -74,8 +74,8 @@ When user shows buying intent (keywords like "quote", "price", "hire"), the bot:
 6. Generates WhatsApp message and link
 
 ### 2. Knowledge Base
-The AI only answers from the provided knowledge base in `xstudioKnowledge.ts`. It will:
-- Answer questions about Xstudio services, process, contact info
+The AI only answers from the provided knowledge base in `HD GraphicsKnowledge.ts`. It will:
+- Answer questions about HD Graphics services, process, contact info
 - Politely redirect questions outside scope
 - Never invent fake case studies
 - Offer to contact for full portfolio when asked
@@ -158,7 +158,7 @@ Common issues:
 
 ## ✨ Next Steps
 
-1. **Customize Knowledge Base**: Edit `src/lib/xstudioKnowledge.ts`
+1. **Customize Knowledge Base**: Edit `src/lib/HD GraphicsKnowledge.ts`
 2. **Adjust Rate Limits**: Edit `server/lib/chat/rateLimit.ts`
 3. **Change Model**: Update `.env` and pull new model
 4. **Deploy**: Follow production deployment guide in README
@@ -179,5 +179,5 @@ Common issues:
 
 ---
 
-**Built for Xstudio - Making it Matter** 🚀
+**Built for HD Graphics - Making it Matter** 🚀
 

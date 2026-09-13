@@ -3,14 +3,14 @@
  * Uses rule-based responses from knowledge base when free API is unavailable
  */
 
-import { SYSTEM_PROMPT } from './xstudioKnowledge';
+import { SYSTEM_PROMPT } from './HD GraphicsKnowledge';
 
 export function generateSimpleResponse(userMessage: string, conversationHistory: any[]): string {
   const lowerMessage = userMessage.toLowerCase();
 
   // Services
   if (lowerMessage.includes('service') || lowerMessage.includes('what do you offer')) {
-    return `Xstudio offers 8 core services:
+    return `HD Graphics offers 8 core services:
 
 1. **AI Marketing & Automation** - Automated campaigns that optimize in real-time
 2. **Brand Strategy & Identity** - Complete brand identity redesign
@@ -38,9 +38,9 @@ Would you like to provide these details so I can generate a quote summary for yo
 
   // Contact
   if (lowerMessage.includes('contact') || lowerMessage.includes('reach') || lowerMessage.includes('call') || lowerMessage.includes('email')) {
-    return `You can reach Xstudio through:
+    return `You can reach HD Graphics through:
 
-📧 **Email:** office@xstudio.blog
+📧 **Email:** office@HD Graphics.blog
 📱 **Phone/WhatsApp:** 
    - +91 9998739029 (Primary)
    - +91 7043633667
@@ -64,12 +64,12 @@ We usually respond within 2 hours! Would you like me to help you get started wit
    - Scaled MRR from $10K to $100K
    - Full-funnel SEO and content marketing solution
 
-For the complete portfolio deck with detailed case studies, please contact us at office@xstudio.blog or +91 9998739029.`;
+For the complete portfolio deck with detailed case studies, please contact us at office@HD Graphics.blog or +91 9998739029.`;
   }
 
-  // About Xstudio
-  if (lowerMessage.includes('about') || lowerMessage.includes('who are you') || lowerMessage.includes('xstudio')) {
-    return `Xstudio is a next-generation creative agency that fuses artistic vision with artificial intelligence.
+  // About HD Graphics
+  if (lowerMessage.includes('about') || lowerMessage.includes('who are you') || lowerMessage.includes('HD Graphics')) {
+    return `HD Graphics is a next-generation creative agency that fuses artistic vision with artificial intelligence.
 
 **Our Story:**
 We bridge the gap between creativity and AI to help startups, enterprises, and visionary founders build brands that resonate, marketing campaigns that convert, and digital products that scale.
@@ -100,7 +100,7 @@ Average turnaround: 2 weeks. Would you like to discuss your project?`;
   }
 
   // Default helpful response
-  return `I'm here to help with Xstudio services, process, and getting a quote! 
+  return `I'm here to help with HD Graphics services, process, and getting a quote! 
 
 I can help you with:
 - Our services and capabilities
