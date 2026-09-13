@@ -20,7 +20,7 @@ export const Logo = ({ showTagline = false, size = "md", className = "", variant
     lg: "text-base",
   };
 
-  const logoSource = variant === "dark" ? "/logo_final.png" : "/logo_final.png";
+  const logoSource = variant === "dark" ? "/lg.png" : "/lg.png";
   const taglineColor = variant === "dark" ? "text-white" : "text-[#164B4D]";
 
   return (
